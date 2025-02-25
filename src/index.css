@@ -1,0 +1,16 @@
+@font-face {
+    font-family: infini;
+    src: url('/fonts/infini-romain.otf');
+  }
+
+  @font-face {
+    font-family: quattro;
+    src: url('/fonts/quattro-700-normal.ttf');
+  }
+
+  body {
+
+    background-color: #ffffff;
+    overflow-x: hidden;
+
+  }

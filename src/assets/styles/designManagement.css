@@ -1,0 +1,99 @@
+
+.containerDesignAll {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.titleDesign {
+
+    color: rgb(0,0,0);
+    font-family: quattro;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.subtitleDesign {
+
+    font-family: infini;
+    font-size: 5vw;
+    text-align: center;
+    width: 80%;
+    max-width: 900px;
+}
+
+
+.pDesign {
+
+    text-align: left;
+    font-family: quattro;
+    font-size: 1.5rem;
+    width: 90%;
+    max-width: 950px;
+
+}
+
+    .containerPDesign {
+
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        position: relative;
+        right: 2em;
+        transition: 1s ease;
+
+    }
+
+    .containerPAnimation {
+
+        transition: 1s ease;
+        opacity: 1;
+        right: 0em;
+
+    }
+
+    .containerSubtitleDesign {
+
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 2em;
+
+    }
+    
+    .animationSub {
+
+        left: 0em;
+        transition: 1s;
+
+    }
+
+    .pDesign {
+
+        text-align: left;
+        font-family: quattro;
+        font-size: 24px;
+        width: 900px;
+        
+    }
+  
+
+    @media only screen and (max-width: 600px) {
+        .subtitleDesign {
+    
+            font-size: 6vw;  
+            width: 90%;   
+        
+        }
+
+        .pDesign {
+
+            text-align: left;
+            font-family: quattro;
+            font-size: 1.2rem;
+            width: 90%;
+        
+        }
+    }

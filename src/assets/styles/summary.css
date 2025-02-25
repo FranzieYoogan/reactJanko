@@ -1,0 +1,73 @@
+.containerAllSummary {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleSummary {
+
+    text-align: center;
+    font-family: infini;
+    font-size: 36px;
+
+}
+
+.containerTitleSummary {
+
+    position: relative;
+    left: 2em;
+
+}
+
+.titleSummaryAnimation {
+
+    left: 0em;
+    transition: 1s;
+
+}
+
+.ulStyle1 {
+
+    width: 25%;
+
+}
+
+li {
+
+    margin-bottom: 1em;
+    font-family: quattro;
+    font-size: 18px;
+}
+
+.containerUl {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 2em;
+    opacity: 0;
+
+}
+
+.containerUlAnimation {
+
+   right: 0em;
+    transition: 1s;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .containerUl {
+
+        display: block;
+        justify-content: center;
+    
+    }
+
+    .ulStyle1 {
+
+        width: 90%;
+    
+    }
+  }

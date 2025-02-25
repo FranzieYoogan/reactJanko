@@ -1,0 +1,71 @@
+.containerAllSeconds {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerTitleSeconds {
+
+    position: relative;
+    left: 2em;
+
+}
+
+.containerTitleSecondsAnimation {
+
+    left: 0em;
+    transition: 1s;
+
+}
+
+.titleSeconds {
+
+    text-align: center;
+    font-family: infini;
+    font-size: 36px;
+
+}
+
+.subTitleSeconds {
+
+    font-family: quattro;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.textSeconds {
+
+    text-align: left;
+    width: 60%;
+    font-family: quattro;
+    font-size: 18px;
+}
+
+
+.containerTextSeconds {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 2em;
+    opacity: 0;
+
+}
+
+.textSecondsAnimation {
+
+    right: 0em;
+    opacity: 1;
+    transition: 1s;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .textSeconds {
+
+        width: 90%;
+
+    }
+  }
