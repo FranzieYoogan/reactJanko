@@ -1,0 +1,119 @@
+.containerAllFooter {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleFooter {
+
+    text-align: center;
+    font-family: quattro;
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(255,85,62);
+    border-bottom: 2px solid rgb(255,85,62);
+    transition: 1s;
+}
+
+.titleFooter:hover {
+
+    border-bottom: 2px solid black;
+
+}
+
+.containerTitleFooter {
+
+    position: relative;
+    left: 2em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleFooterAnimation {
+
+    left: 0em;
+    transition: 1s;
+
+}
+
+.anchorFooter {
+
+    font-family: quattro;
+    color: rgb(255,85,62);
+    font-size: 21px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(255,85,62) ;
+}
+
+.anchorFooter:hover {
+
+    border-bottom: 2px solid black;
+    transition: 1s;
+
+}
+
+.containerAnchor {
+
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 2em;
+    opacity: 0;
+}
+
+.animationAnchor {
+
+right: 0;
+opacity: 1;
+transition: 1s;
+
+}
+
+.barStyle {
+
+    position: relative;
+    bottom: 0em;
+    margin: 0 0.5em 0 0.5em;
+    font-size: 25px;
+
+}
+
+.containerFooterTitle2 {
+
+    margin: 2em 0 8em 0;
+
+}
+
+.footerTitle2 {
+
+    text-align: center;
+    font-family: quattro;
+    font-size: 14px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .containerAnchor {
+       display: block;
+    }
+
+    .anchorFooter {
+        font-size: 18px; /* Reduce font size for better readability on smaller screens */
+        margin: 0 0.1em 0 0.2em;
+
+    }
+
+    .barStyle {
+      display: none;
+    }
+
+    .titleFooter {
+
+        text-decoration: underline;
+        border-bottom: none;
+
+    }
+}
